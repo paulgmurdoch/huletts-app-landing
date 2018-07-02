@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Helvetica LT Std Light";
+    src: url("../fonts/HelveticaLTStd-Light.otf");
+}
+@font-face {
+    font-family: "Helvetica LT Std Roman";
+    src: url("../fonts/HelveticaLTStd-Roman.otf");
+}
+@font-face {
+    font-family: "Helvetica LT Std Bold";
+    src: url("../fonts/HelveticaLTStd-Bold.otf");
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico.ttf");
+}
+
+h1 {
+    font-family: "Helvetica LT Std Light";
+    font-size: 46pt;
+    color: #ffffff;
+}
+h2 {
+    font-family: "Helvetica LT Std Light";
+    font-size: 36pt;
+    color: #ffffff;
+}
+h3 {
+    font-family: "Helvetica LT Std Light";
+    font-size: 26pt;
+    color: #ffffff;
+}
+h4 {
+    font-family: "Helvetica LT Std Bold";
+    font-size: 24pt;
+    color: #ffffff;
+}
+p {
+    font-family: "Helvetica LT Std Roman";
+    font-size: 16pt;
+    color: #ffffff;
+}
+button {
+    font-family: "Helvetica LT Std Roman";
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+}
+
+.blue {
+    color: #0e53a3;
+}
+
+.bold {
+    font-family: "Helvetica LT Std Bold";
+}
+
+header {
+    height: 75px;
+    background: #ffffff url('../images/top_back.jpg') repeat-x;
+}
+
+header img.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+section.jumbotron {
+    background-image: url("../images/Banner.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+section.jumbotron .phone {
+    width: 550px;
+    margin-top: -55px;
+}
+
+section.jumbotron p {
+    padding: 20px 20px 15px 20px;
+}
+
+.red-heading {
+    background-color: #ea1f27;
+    padding: 30px 0px 15px 30px;
+    line-height: 1;
+    margin: 100px 0px 0px 0px;
+}
+
+.blue-heading {
+    background-color: #0b509f;
+    width: 55%;
+    padding: 15px 0px 5px 30px;
+}
+
+section.jumbotron button {
+    padding: 15px 30px 10px 30px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+
+}
+section.jumbotron button:hover {
+    color: #0b509f;
+    background-color: #ffffff;
+}
+
+section.video {
+    background: url("../images/videobanner.jpg") no-repeat;
+    background-size: cover;
+}
+
+section.video .container {
+    max-width: 1250px;
+    padding: 40px 0px;
+}
+
+section.info {
+    padding: 100px 0px 100px 0px;
+}
+
+section.info h2 {
+    text-align: center;
+}
+
+section.info h4 {
+    color: #0b509f;
+}
+
+section.info p {
+    color: #888888;
+}
+
+section.info .text {
+    padding-top: 170px;
+}
+
+section.info .text:first-child {
+    text-align: right;
+}
+
+.main-phone {
+    width: 100%;
+}
+
+footer {
+    background: url("../images/download_banner.jpg") no-repeat;
+    background-size: cover;
+}
+
+footer .container {
+    padding: 70px 0px;
+}
+
+footer h2.apps {
+    font-family: "Helvetica LT Std Bold";
+    font-style: 37pt;
+}
+
+footer .apps .download {
+    font-family: "Pacifico";
+    font-size: 47pt;
+}
+
+footer img.app {
+    width: 49%;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer img.app:first-child {
+    margin-right: 7px;
+}
+
+section.copyright .container {
+    padding: 20px 0px;
+}
+
+section.copyright p {
+    color: #888888;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    section.jumbotron .phone {
+        width: 410px;
+        margin-top: 95px;
+    }
+    section.video .container {
+        text-align: center;
+    }
+    section.video .mobile {
+        display: block;
+    }
+    section.video .desktop {
+        display: none;
+    }
+    .blue-heading {
+        width: 60%;
+    }
+    .red-heading {
+        font-size: 37pt;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .hidden-xs {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    section.jumbotron {
+        height: 450px;
+        background-position: center;
+    }
+
+    section.jumbotron .container .row .col-md-7 {
+        max-width: 100%;
+        flex: none;
+    }
+
+    .red-heading {
+        background-color: #ea1f27;
+        padding: 30px 10px 15px 10px;
+        line-height: 1;
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+        font-size: 22pt;
+    }
+
+    .blue-heading {
+        background-color: #0b509f;
+        width: 55%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16pt;
+        padding: 15px 10px 5px 10px;
+    }
+    section.jumbotron p {
+        text-align: center;
+    }
+    section.jumbotron button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    section.video h2 {
+        text-align: center;
+        font-size: 26pt;
+    }
+
+    section.video img.video-button {
+        margin: 0 auto;
+        display: block;
+        height: 100px;
+    }
+
+    section.info {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    section.info .container .row .col-md-4 {
+        max-width: 100%;
+        flex: none;
+    }
+
+    .main-phone {
+        width: 50%;
+    }
+
+    section.info h2 {
+        font-size: 26pt;
+    }
+
+    section.info .text {
+        padding-top: 0px;
+    }
+    section.info .text:last-child {
+        padding-top: 50px;
+    }
+
+    footer .container .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+    
+    footer .apps .download {
+        text-align: center;
+        font-size: 34pt;
+    }
+    footer h2.apps {
+        font-size: 27pt;
+    }
+    
+    footer img.app {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    footer img.app:first-child {
+        margin-right: auto;
+    }
+
+    footer img.app:last-child {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .main-phone {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section.jumbotron {
+        height: 500px;
+    }
+}
+
