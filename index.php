@@ -49,7 +49,7 @@
         <div class="desktop">
             <h2 class="blue"><span class="bold">How</span> does it work
                 <img src="images/playbutton.png" alt="Video Play Button" class="video-button">
-                <span class="bold">Watch</span> the video walk-through</h2>
+                <span class="bold">Watch</span> the video&nbsp;&nbsp;</h2>
         </div>
     </div>
 </section>
