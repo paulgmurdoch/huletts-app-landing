@@ -17,32 +17,32 @@
 
 h1 {
     font-family: "Helvetica LT Std Light";
-    font-size: 46pt;
+    font-size: 46px;
     color: #ffffff;
 }
 h2 {
     font-family: "Helvetica LT Std Light";
-    font-size: 36pt;
+    font-size: 36px;
     color: #ffffff;
 }
 h3 {
     font-family: "Helvetica LT Std Light";
-    font-size: 26pt;
+    font-size: 26px;
     color: #ffffff;
 }
 h4 {
     font-family: "Helvetica LT Std Bold";
-    font-size: 24pt;
+    font-size: 24px;
     color: #ffffff;
 }
 p {
     font-family: "Helvetica LT Std Roman";
-    font-size: 16pt;
+    font-size: 16px;
     color: #ffffff;
 }
 button {
     font-family: "Helvetica LT Std Roman";
-    font-size: 18pt;
+    font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
     background: transparent;
@@ -70,7 +70,7 @@ section.jumbotron {
     background-image: url("../images/Banner.jpg");
     -webkit-background-size: cover;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     margin-bottom: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -78,8 +78,8 @@ section.jumbotron {
 }
 
 section.jumbotron .phone {
-    width: 550px;
-    margin-top: -55px;
+    width: 470px;
+    margin-top: -70px;
 }
 
 section.jumbotron p {
@@ -90,7 +90,7 @@ section.jumbotron p {
     background-color: #ea1f27;
     padding: 30px 0px 15px 30px;
     line-height: 1;
-    margin: 100px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .blue-heading {
@@ -113,6 +113,7 @@ section.jumbotron button:hover {
 section.video {
     background: url("../images/videobanner.jpg") no-repeat;
     background-size: cover;
+    height: 222px;
 }
 
 section.video .container {
@@ -120,7 +121,8 @@ section.video .container {
 }
 
 section.video .desktop h2 {
-    font-size: 33.3pt;
+    font-size: 33.3px;
+    text-align: center;
 }
 
 section.info {
@@ -154,6 +156,7 @@ section.info .text:first-child {
 footer {
     background: url("../images/download_banner.jpg") no-repeat;
     background-size: cover;
+    height: 230px;
 }
 
 footer .container {
@@ -162,18 +165,19 @@ footer .container {
 
 footer h2.apps {
     font-family: "Helvetica LT Std Bold";
-    font-style: 37pt;
+    font-size: 37px;
+    text-shadow: 1px 1px 10px #000;
 }
 
 footer .apps .download {
     font-family: "Pacifico";
-    font-size: 47pt;
+    font-size: 47px;
 }
 
 footer img.app {
     width: 49%;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
 }
 footer img.app:first-child {
@@ -187,7 +191,7 @@ section.copyright .container {
 section.copyright p {
     color: #888888;
     text-align: center;
-    font-size: 12pt;
+    font-size: 12px;
 }
 
 .mobile {
@@ -195,7 +199,7 @@ section.copyright p {
 }
 @media screen and (max-width: 1315px) {
     section.jumbotron .phone {
-        width: 500px;
+        width: 406px;
         margin-top: -1px;
     }
 }
@@ -203,7 +207,10 @@ section.copyright p {
 @media screen and (max-width: 1200px) {
     section.jumbotron .phone {
         width: 410px;
-        margin-top: 95px;
+        margin-top: -5px;
+    }
+    section.video {
+        height: fit-content;
     }
     section.video .container {
         text-align: center;
@@ -221,7 +228,7 @@ section.copyright p {
         width: 60%;
     }
     .red-heading {
-        font-size: 37pt;
+        font-size: 37px;
     }
 }
 
@@ -254,7 +261,7 @@ section.copyright p {
         line-height: 1;
         margin: 50px 0px 0px 0px;
         text-align: center;
-        font-size: 22pt;
+        font-size: 22px;
     }
 
     .blue-heading {
@@ -263,7 +270,7 @@ section.copyright p {
         display: block;
         margin: 0 auto;
         text-align: center;
-        font-size: 16pt;
+        font-size: 16px;
         padding: 15px 10px 5px 10px;
     }
     section.jumbotron p {
@@ -276,7 +283,7 @@ section.copyright p {
 
     section.video h2 {
         text-align: center;
-        font-size: 26pt;
+        font-size: 26px;
     }
 
     section.video img.video-button {
@@ -300,7 +307,7 @@ section.copyright p {
     }
 
     section.info h2 {
-        font-size: 26pt;
+        font-size: 26px;
     }
 
     section.info .text {
@@ -321,10 +328,10 @@ section.copyright p {
     
     footer .apps .download {
         text-align: center;
-        font-size: 34pt;
+        font-size: 34px;
     }
     footer h2.apps {
-        font-size: 27pt;
+        font-size: 27px;
     }
     
     footer img.app {
@@ -343,6 +350,11 @@ section.copyright p {
     }
 }
 
+@media screen and (max-width: 768px) {
+    footer {
+        height: fit-content;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .main-phone {
